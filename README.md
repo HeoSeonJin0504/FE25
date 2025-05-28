@@ -2,7 +2,7 @@
 
 ### 컴퓨터공학과 허선진
 
-### 디플로이된 웹사이트 주소 : [https://phenomenal-zuccutto-8eb522.netlify.app/](https://phenomenal-zuccutto-8eb522.netlify.app/)
+### 디플로이된 웹사이트 주소 : [포트폴리오](https://phenomenal-zuccutto-8eb522.netlify.app/)
 
 
 ### 13장 프로젝트 요약
