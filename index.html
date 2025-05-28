@@ -12,7 +12,107 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="container">
+        <!-- HTML 구조의 핵심인 container 클래스가 포함된 div 태그 -->
+        <h1>
+          <button>SU</button>
+        </h1>
+        <nav>
+          <ul>
+            <!-- 구조 동일, button 태그의 텍스트(Features, Portfolio, Contact)만 변경 -->
+            <li>
+              <button>About</button>
+            </li>
+            <li>
+              <button>Features</button>
+            </li>
+            <li>
+              <button>Portfolio</button>
+            </li>
+            <li>
+              <button>Contact</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <div class="container">
+        <h4>Welcome</h4>
+        <h2>I`M A <span>Front-End Developer</span></h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          dolor quas nulla unde ea officiis?
+        </p>
+        <button class="download">DOWNLOAD C.V.</button>
+        <button class="mouse">
+          <i class="fa-solid fa-computer-mouse"></i>
+        </button>
+      </div>
+    </main>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="title">
+          <h4>Who Am I</h4>
+          <h2>About Me</h2>
+        </div>
+        <div class="about-self">
+          <div class="left">
+            <img src="/images/me_alone.jpg" alt="" />
+          </div>
+          <div class="right">
+            <h3>Hello, <strong>I`m SeonJin.</strong></h3>
+            <p>I`m Web Publisher And Web Front-End Developer.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium dolor quas nulla unde ea officiis?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium dolor quas nulla unde ea officiis?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium dolor quas nulla unde ea officiis?
+            </p>
+            <div class="social">
+              <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="features" class="do">
+      <div class="container">
+        <div class="title">
+          <h4>Features</h4>
+          <h2>What I Do</h2>
+        </div>
+      </div>
+    </section>
+    <div class="bg">배경</div>
+    <section id="portfolio" class="portfolio">포트폴리오</section>
+    <section id="contact" class="contact">컨택미</section>
+    <footer>푸터</footer>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
